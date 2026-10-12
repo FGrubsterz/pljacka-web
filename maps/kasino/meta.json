@@ -1,0 +1,56 @@
+{
+ "id": "kasino",
+ "version": 1,
+ "source": "f62de458103e",
+ "lmScale": 2.4944069385528564,
+ "flipY": false,
+ "ambient": [
+  0.054999999701976776,
+  0.057999998331069946,
+  0.07000000029802322
+ ],
+ "sky": "night",
+ "levels": {
+  "0": {
+   "glb": "L0.glb",
+   "lm": "L0_lm.webp",
+   "lmDark": "L0_lm_dark.webp",
+   "lmPng": "L0_lm.png",
+   "lmSize": 2048,
+   "texelCm": 9.41,
+   "tris": 36631,
+   "glbKB": 586
+  },
+  "1": {
+   "glb": "L1.glb",
+   "lm": "L1_lm.webp",
+   "lmDark": "L1_lm_dark.webp",
+   "lmPng": "L1_lm.png",
+   "lmSize": 2048,
+   "texelCm": 6.89,
+   "tris": 19522,
+   "glbKB": 327
+  },
+  "-1": {
+   "glb": "L-1.glb",
+   "lm": "L-1_lm.webp",
+   "lmDark": "L-1_lm_dark.webp",
+   "lmPng": "L-1_lm.png",
+   "lmSize": 2048,
+   "texelCm": 7.2,
+   "tris": 17512,
+   "glbKB": 308
+  }
+ },
+ "objs": "objs.glb",
+ "env": "env.glb",
+ "notes": "Lightmap = Cycles diffuse light without albedo, divided by lmScale, sRGB 8-bit, on TEXCOORD_1 in glTF orientation (Texture invertY = false). Physical light = texel * lmScale (lightmapTexture.level = lmScale). glass_* / emit_* materials map to a neutral white texel. Textures are files in tex/ shared by the levels.",
+ "bakeSeconds": {
+  "lm_-1_main": 63.5,
+  "lm_-1_dark": 6.3,
+  "lm_0_main": 40.5,
+  "lm_0_dark": 5,
+  "lm_1_main": 54.2,
+  "lm_1_dark": 6.7
+ }
+}

@@ -1,6 +1,7 @@
 {
  "id": "neboder",
  "version": 1,
+ "source": "17a114551ef5",
  "lmScale": 2.7234134674072266,
  "flipY": false,
  "ambient": [
@@ -18,7 +19,7 @@
    "lmSize": 2048,
    "texelCm": 5.56,
    "tris": 23484,
-   "glbKB": 642
+   "glbKB": 404
   },
   "1": {
    "glb": "L1.glb",
@@ -28,7 +29,7 @@
    "lmSize": 2048,
    "texelCm": 3.61,
    "tris": 8284,
-   "glbKB": 247
+   "glbKB": 176
   },
   "2": {
    "glb": "L2.glb",
@@ -38,7 +39,7 @@
    "lmSize": 2048,
    "texelCm": 3.74,
    "tris": 8256,
-   "glbKB": 247
+   "glbKB": 178
   },
   "3": {
    "glb": "L3.glb",
@@ -48,7 +49,7 @@
    "lmSize": 2048,
    "texelCm": 3.83,
    "tris": 8406,
-   "glbKB": 257
+   "glbKB": 186
   },
   "4": {
    "glb": "L4.glb",
@@ -58,7 +59,7 @@
    "lmSize": 2048,
    "texelCm": 3.93,
    "tris": 9764,
-   "glbKB": 284
+   "glbKB": 203
   },
   "5": {
    "glb": "L5.glb",
@@ -68,7 +69,7 @@
    "lmSize": 2048,
    "texelCm": 3.67,
    "tris": 8278,
-   "glbKB": 248
+   "glbKB": 180
   },
   "6": {
    "glb": "L6.glb",
@@ -78,7 +79,7 @@
    "lmSize": 2048,
    "texelCm": 3.79,
    "tris": 8154,
-   "glbKB": 247
+   "glbKB": 179
   },
   "7": {
    "glb": "L7.glb",
@@ -88,7 +89,7 @@
    "lmSize": 2048,
    "texelCm": 3.82,
    "tris": 9784,
-   "glbKB": 291
+   "glbKB": 201
   },
   "8": {
    "glb": "L8.glb",
@@ -98,7 +99,7 @@
    "lmSize": 1024,
    "texelCm": 3.71,
    "tris": 1564,
-   "glbKB": 67
+   "glbKB": 49
   },
   "-1": {
    "glb": "L-1.glb",
@@ -108,7 +109,7 @@
    "lmSize": 2048,
    "texelCm": 3.46,
    "tris": 4212,
-   "glbKB": 151
+   "glbKB": 106
   }
  },
  "objs": "objs.glb",

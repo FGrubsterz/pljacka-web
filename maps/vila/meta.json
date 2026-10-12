@@ -1,0 +1,68 @@
+{
+ "id": "vila",
+ "version": 1,
+ "source": "8ea58d046922",
+ "lmScale": 3.110623598098755,
+ "flipY": false,
+ "ambient": [
+  0.05999999865889549,
+  0.054999999701976776,
+  0.054999999701976776
+ ],
+ "sky": "sunset",
+ "levels": {
+  "0": {
+   "glb": "L0.glb",
+   "lm": "L0_lm.webp",
+   "lmDark": "L0_lm_dark.webp",
+   "lmPng": "L0_lm.png",
+   "lmSize": 2048,
+   "texelCm": 8.03,
+   "tris": 29142,
+   "glbKB": 521
+  },
+  "1": {
+   "glb": "L1.glb",
+   "lm": "L1_lm.webp",
+   "lmDark": "L1_lm_dark.webp",
+   "lmPng": "L1_lm.png",
+   "lmSize": 2048,
+   "texelCm": 4.81,
+   "tris": 12720,
+   "glbKB": 255
+  },
+  "2": {
+   "glb": "L2.glb",
+   "lm": "L2_lm.webp",
+   "lmDark": "L2_lm_dark.webp",
+   "lmPng": "L2_lm.png",
+   "lmSize": 1024,
+   "texelCm": 5.69,
+   "tris": 4770,
+   "glbKB": 102
+  },
+  "-1": {
+   "glb": "L-1.glb",
+   "lm": "L-1_lm.webp",
+   "lmDark": "L-1_lm_dark.webp",
+   "lmPng": "L-1_lm.png",
+   "lmSize": 2048,
+   "texelCm": 5.17,
+   "tris": 13598,
+   "glbKB": 267
+  }
+ },
+ "objs": "objs.glb",
+ "env": "env.glb",
+ "notes": "Lightmap = Cycles diffuse light without albedo, divided by lmScale, sRGB 8-bit, on TEXCOORD_1 in glTF orientation (Texture invertY = false). Physical light = texel * lmScale (lightmapTexture.level = lmScale). glass_* / emit_* materials map to a neutral white texel. Textures are files in tex/ shared by the levels.",
+ "bakeSeconds": {
+  "lm_-1_main": 3796.9,
+  "lm_-1_dark": 362.4,
+  "lm_0_main": 3142.3,
+  "lm_0_dark": 389.6,
+  "lm_1_main": 2338,
+  "lm_1_dark": 381.4,
+  "lm_2_main": 343.7,
+  "lm_2_dark": 67.5
+ }
+}
