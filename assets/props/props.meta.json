@@ -3791,15 +3791,15 @@
    ],
    "bounds_min": [
     -1.25,
-    -3.2419,
+    -3.25,
     0.0
    ],
    "bounds_max": [
     1.25,
-    3.25,
+    3.24,
     2.8
    ],
-   "tris": 3576,
+   "tris": 4064,
    "overhang_above": null
   },
   "kovnica_rail_wagon": {
