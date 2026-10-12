@@ -1,0 +1,139 @@
+{
+ "id": "neboder",
+ "version": 1,
+ "lmScale": 2.7234134674072266,
+ "flipY": false,
+ "ambient": [
+  0.054999999701976776,
+  0.057999998331069946,
+  0.07000000029802322
+ ],
+ "sky": "night",
+ "levels": {
+  "0": {
+   "glb": "L0.glb",
+   "lm": "L0_lm.webp",
+   "lmDark": "L0_lm_dark.webp",
+   "lmPng": "L0_lm.png",
+   "lmSize": 2048,
+   "texelCm": 5.56,
+   "tris": 23484,
+   "glbKB": 642
+  },
+  "1": {
+   "glb": "L1.glb",
+   "lm": "L1_lm.webp",
+   "lmDark": "L1_lm_dark.webp",
+   "lmPng": "L1_lm.png",
+   "lmSize": 2048,
+   "texelCm": 3.61,
+   "tris": 8284,
+   "glbKB": 247
+  },
+  "2": {
+   "glb": "L2.glb",
+   "lm": "L2_lm.webp",
+   "lmDark": "L2_lm_dark.webp",
+   "lmPng": "L2_lm.png",
+   "lmSize": 2048,
+   "texelCm": 3.74,
+   "tris": 8256,
+   "glbKB": 247
+  },
+  "3": {
+   "glb": "L3.glb",
+   "lm": "L3_lm.webp",
+   "lmDark": "L3_lm_dark.webp",
+   "lmPng": "L3_lm.png",
+   "lmSize": 2048,
+   "texelCm": 3.83,
+   "tris": 8406,
+   "glbKB": 257
+  },
+  "4": {
+   "glb": "L4.glb",
+   "lm": "L4_lm.webp",
+   "lmDark": "L4_lm_dark.webp",
+   "lmPng": "L4_lm.png",
+   "lmSize": 2048,
+   "texelCm": 3.93,
+   "tris": 9764,
+   "glbKB": 284
+  },
+  "5": {
+   "glb": "L5.glb",
+   "lm": "L5_lm.webp",
+   "lmDark": "L5_lm_dark.webp",
+   "lmPng": "L5_lm.png",
+   "lmSize": 2048,
+   "texelCm": 3.67,
+   "tris": 8278,
+   "glbKB": 248
+  },
+  "6": {
+   "glb": "L6.glb",
+   "lm": "L6_lm.webp",
+   "lmDark": "L6_lm_dark.webp",
+   "lmPng": "L6_lm.png",
+   "lmSize": 2048,
+   "texelCm": 3.79,
+   "tris": 8154,
+   "glbKB": 247
+  },
+  "7": {
+   "glb": "L7.glb",
+   "lm": "L7_lm.webp",
+   "lmDark": "L7_lm_dark.webp",
+   "lmPng": "L7_lm.png",
+   "lmSize": 2048,
+   "texelCm": 3.82,
+   "tris": 9784,
+   "glbKB": 291
+  },
+  "8": {
+   "glb": "L8.glb",
+   "lm": "L8_lm.webp",
+   "lmDark": "L8_lm_dark.webp",
+   "lmPng": "L8_lm.png",
+   "lmSize": 1024,
+   "texelCm": 3.71,
+   "tris": 1564,
+   "glbKB": 67
+  },
+  "-1": {
+   "glb": "L-1.glb",
+   "lm": "L-1_lm.webp",
+   "lmDark": "L-1_lm_dark.webp",
+   "lmPng": "L-1_lm.png",
+   "lmSize": 2048,
+   "texelCm": 3.46,
+   "tris": 4212,
+   "glbKB": 151
+  }
+ },
+ "objs": "objs.glb",
+ "env": "env.glb",
+ "notes": "Lightmap = Cycles diffuse light without albedo, divided by lmScale, sRGB 8-bit, on TEXCOORD_1 in glTF orientation (Texture invertY = false). Physical light = texel * lmScale (lightmapTexture.level = lmScale). glass_* / emit_* materials map to a neutral white texel. Textures are files in tex/ shared by the levels.",
+ "bakeSeconds": {
+  "lm_1_main": 94.2,
+  "lm_1_dark": 15.3,
+  "lm_-1_main": 83.9,
+  "lm_-1_dark": 12.8,
+  "lm_0_main": 60.6,
+  "lm_0_dark": 11.2,
+  "lm_2_main": 113.5,
+  "lm_2_dark": 17.5,
+  "lm_3_main": 98,
+  "lm_3_dark": 16.1,
+  "lm_4_main": 112.7,
+  "lm_4_dark": 16.5,
+  "lm_5_main": 94.4,
+  "lm_5_dark": 16.7,
+  "lm_6_main": 130.3,
+  "lm_6_dark": 16.9,
+  "lm_7_main": 119.1,
+  "lm_7_dark": 26.1,
+  "lm_8_main": 10.5,
+  "lm_8_dark": 4.5
+ }
+}

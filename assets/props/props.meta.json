@@ -1,0 +1,3466 @@
+{
+ "file": "props.glb",
+ "axes": "glTF Y up; Blender (x,y,z) -> game (x,z,-y); props face +z",
+ "props": {
+  "desk": {
+   "builder": "desk",
+   "box": [
+    1.6,
+    0.8,
+    0.76
+   ],
+   "bounds_min": [
+    -0.8,
+    -0.4,
+    0.0
+   ],
+   "bounds_max": [
+    0.8,
+    0.3935,
+    0.752
+   ],
+   "tris": 1936,
+   "overhang_above": null
+  },
+  "desk_pair": {
+   "builder": "desk_pair",
+   "box": [
+    1.6,
+    1.6,
+    1.2
+   ],
+   "bounds_min": [
+    -0.8,
+    -0.8,
+    0.0
+   ],
+   "bounds_max": [
+    0.8,
+    0.8,
+    1.2
+   ],
+   "tris": 4168,
+   "overhang_above": null
+  },
+  "exec_desk": {
+   "builder": "exec_desk",
+   "box": [
+    2.2,
+    1,
+    0.78
+   ],
+   "bounds_min": [
+    -1.1,
+    -0.5,
+    0.0
+   ],
+   "bounds_max": [
+    1.1,
+    0.5,
+    0.774
+   ],
+   "tris": 1620,
+   "overhang_above": null
+  },
+  "office_chair": {
+   "builder": "office_chair",
+   "box": [
+    0.6,
+    0.6,
+    1.05
+   ],
+   "bounds_min": [
+    -0.3024,
+    -0.2475,
+    0.0
+   ],
+   "bounds_max": [
+    0.3024,
+    0.3,
+    1.0292
+   ],
+   "tris": 812,
+   "overhang_above": null
+  },
+  "shelf": {
+   "builder": "shelf",
+   "box": [
+    1.8,
+    0.45,
+    2
+   ],
+   "bounds_min": [
+    -0.9,
+    -0.225,
+    0.0
+   ],
+   "bounds_max": [
+    0.9,
+    0.225,
+    2.0
+   ],
+   "tris": 3698,
+   "overhang_above": null
+  },
+  "filing": {
+   "builder": "filing",
+   "box": [
+    0.9,
+    0.6,
+    1.3
+   ],
+   "bounds_min": [
+    -0.45,
+    -0.3,
+    0.0
+   ],
+   "bounds_max": [
+    0.45,
+    0.2761,
+    1.3
+   ],
+   "tris": 540,
+   "overhang_above": null
+  },
+  "archive_rack": {
+   "builder": "archive_rack",
+   "box": [
+    2.4,
+    0.6,
+    2.2
+   ],
+   "bounds_min": [
+    -1.2,
+    -0.3,
+    0.0
+   ],
+   "bounds_max": [
+    1.2,
+    0.3,
+    2.2
+   ],
+   "tris": 7776,
+   "overhang_above": null
+  },
+  "meeting_table": {
+   "builder": "meeting_table",
+   "box": [
+    3.6,
+    1.4,
+    0.76
+   ],
+   "bounds_min": [
+    -1.8,
+    -0.6612,
+    0.0
+   ],
+   "bounds_max": [
+    1.8,
+    0.6612,
+    0.76
+   ],
+   "tris": 6164,
+   "overhang_above": null
+  },
+  "whiteboard": {
+   "builder": "whiteboard",
+   "box": [
+    1.8,
+    0.06,
+    1.2
+   ],
+   "bounds_min": [
+    -0.9,
+    -0.03,
+    0.0
+   ],
+   "bounds_max": [
+    0.9,
+    0.0257,
+    1.2
+   ],
+   "tris": 358,
+   "overhang_above": null
+  },
+  "tv_wall": {
+   "builder": "tv_wall",
+   "box": [
+    2,
+    0.08,
+    1.15
+   ],
+   "bounds_min": [
+    -1.0,
+    -0.02,
+    0.0
+   ],
+   "bounds_max": [
+    1.0,
+    0.04,
+    1.15
+   ],
+   "tris": 106,
+   "overhang_above": null
+  },
+  "plant": {
+   "builder": "plant",
+   "box": [
+    0.6,
+    0.6,
+    1.5
+   ],
+   "bounds_min": [
+    -0.2654,
+    -0.2609,
+    0.0
+   ],
+   "bounds_max": [
+    0.3,
+    0.3,
+    1.3577
+   ],
+   "tris": 860,
+   "overhang_above": null
+  },
+  "plant_small": {
+   "builder": "plant_small",
+   "box": [
+    0.4,
+    0.4,
+    0.9
+   ],
+   "bounds_min": [
+    -0.17,
+    -0.17,
+    0.0
+   ],
+   "bounds_max": [
+    0.1698,
+    0.17,
+    0.8398
+   ],
+   "tris": 542,
+   "overhang_above": null
+  },
+  "water_cooler": {
+   "builder": "water_cooler",
+   "box": [
+    0.4,
+    0.4,
+    1.25
+   ],
+   "bounds_min": [
+    -0.18,
+    -0.2,
+    0.0
+   ],
+   "bounds_max": [
+    0.18,
+    0.1714,
+    1.25
+   ],
+   "tris": 562,
+   "overhang_above": null
+  },
+  "copier": {
+   "builder": "copier",
+   "box": [
+    1.1,
+    0.7,
+    1.15
+   ],
+   "bounds_min": [
+    -0.55,
+    -0.35,
+    0.0
+   ],
+   "bounds_max": [
+    0.55,
+    0.3311,
+    1.15
+   ],
+   "tris": 778,
+   "overhang_above": null
+  },
+  "sofa": {
+   "builder": "sofa",
+   "box": [
+    2.1,
+    0.9,
+    0.85
+   ],
+   "bounds_min": [
+    -1.05,
+    -0.45,
+    0.0
+   ],
+   "bounds_max": [
+    1.05,
+    0.45,
+    0.85
+   ],
+   "tris": 1408,
+   "overhang_above": null
+  },
+  "armchair": {
+   "builder": "armchair",
+   "box": [
+    0.9,
+    0.9,
+    0.9
+   ],
+   "bounds_min": [
+    -0.45,
+    -0.45,
+    0.0
+   ],
+   "bounds_max": [
+    0.45,
+    0.45,
+    0.9
+   ],
+   "tris": 760,
+   "overhang_above": null
+  },
+  "coffee_table": {
+   "builder": "coffee_table",
+   "box": [
+    1.2,
+    0.7,
+    0.42
+   ],
+   "bounds_min": [
+    -0.6,
+    -0.35,
+    0.0
+   ],
+   "bounds_max": [
+    0.6,
+    0.35,
+    0.42
+   ],
+   "tris": 872,
+   "overhang_above": null
+  },
+  "reception_desk": {
+   "builder": "reception_desk",
+   "box": [
+    4.5,
+    1.2,
+    1.1
+   ],
+   "bounds_min": [
+    -2.25,
+    -0.599,
+    0.0
+   ],
+   "bounds_max": [
+    2.25,
+    0.5529,
+    1.1
+   ],
+   "tris": 1902,
+   "overhang_above": null
+  },
+  "turnstile": {
+   "builder": "turnstile",
+   "box": [
+    3.2,
+    0.5,
+    1
+   ],
+   "bounds_min": [
+    -1.602,
+    -0.25,
+    0.0
+   ],
+   "bounds_max": [
+    1.602,
+    0.25,
+    1.001
+   ],
+   "tris": 1032,
+   "overhang_above": null
+  },
+  "bench": {
+   "builder": "bench",
+   "box": [
+    1.8,
+    0.5,
+    0.45
+   ],
+   "bounds_min": [
+    -0.9,
+    -0.244,
+    0.0
+   ],
+   "bounds_max": [
+    0.9,
+    0.244,
+    0.45
+   ],
+   "tris": 616,
+   "overhang_above": null
+  },
+  "locker_row": {
+   "builder": "locker_row",
+   "box": [
+    2.4,
+    0.5,
+    1.95
+   ],
+   "bounds_min": [
+    -1.2,
+    -0.25,
+    0.0
+   ],
+   "bounds_max": [
+    1.2,
+    0.2252,
+    1.95
+   ],
+   "tris": 1604,
+   "overhang_above": null
+  },
+  "server_rack": {
+   "builder": "server_rack",
+   "box": [
+    0.7,
+    1.1,
+    2.1
+   ],
+   "bounds_min": [
+    -0.35,
+    -0.55,
+    0.0
+   ],
+   "bounds_max": [
+    0.35,
+    0.55,
+    2.1
+   ],
+   "tris": 508,
+   "overhang_above": null
+  },
+  "monitor_wall": {
+   "builder": "monitor_wall",
+   "box": [
+    3.2,
+    0.3,
+    1.9
+   ],
+   "bounds_min": [
+    -1.6,
+    -0.15,
+    0.0
+   ],
+   "bounds_max": [
+    1.6,
+    0.1339,
+    1.9
+   ],
+   "tris": 462,
+   "overhang_above": null
+  },
+  "control_desk": {
+   "builder": "control_desk",
+   "box": [
+    3,
+    1,
+    0.85
+   ],
+   "bounds_min": [
+    -1.5,
+    -0.5,
+    0.0
+   ],
+   "bounds_max": [
+    1.5,
+    0.495,
+    0.8516
+   ],
+   "tris": 898,
+   "overhang_above": null
+  },
+  "keycard_terminal": {
+   "builder": "keycard_terminal",
+   "box": [
+    0.6,
+    0.5,
+    1.2
+   ],
+   "bounds_min": [
+    -0.3,
+    -0.25,
+    0.0
+   ],
+   "bounds_max": [
+    0.3,
+    0.25,
+    1.2
+   ],
+   "tris": 246,
+   "overhang_above": null
+  },
+  "bed": {
+   "builder": "bed",
+   "box": [
+    1.8,
+    2.1,
+    0.6
+   ],
+   "bounds_min": [
+    -0.9,
+    -1.04,
+    0.0
+   ],
+   "bounds_max": [
+    0.9,
+    1.05,
+    0.6
+   ],
+   "tris": 1372,
+   "overhang_above": null
+  },
+  "nightstand": {
+   "builder": "nightstand",
+   "box": [
+    0.5,
+    0.45,
+    0.55
+   ],
+   "bounds_min": [
+    -0.25,
+    -0.225,
+    0.0
+   ],
+   "bounds_max": [
+    0.25,
+    0.1928,
+    0.55
+   ],
+   "tris": 524,
+   "overhang_above": null
+  },
+  "wardrobe": {
+   "builder": "wardrobe",
+   "box": [
+    1.6,
+    0.6,
+    2.1
+   ],
+   "bounds_min": [
+    -0.8,
+    -0.3,
+    0.0
+   ],
+   "bounds_max": [
+    0.8,
+    0.2601,
+    2.1
+   ],
+   "tris": 528,
+   "overhang_above": null
+  },
+  "dresser": {
+   "builder": "dresser",
+   "box": [
+    1.4,
+    0.5,
+    0.85
+   ],
+   "bounds_min": [
+    -0.7,
+    -0.25,
+    0.0
+   ],
+   "bounds_max": [
+    0.7,
+    0.2174,
+    0.85
+   ],
+   "tris": 1224,
+   "overhang_above": null
+  },
+  "bathtub": {
+   "builder": "bathtub",
+   "box": [
+    1.7,
+    0.8,
+    0.6
+   ],
+   "bounds_min": [
+    -0.85,
+    -0.4,
+    0.0
+   ],
+   "bounds_max": [
+    0.85,
+    0.4,
+    0.6
+   ],
+   "tris": 840,
+   "overhang_above": null
+  },
+  "sink_vanity": {
+   "builder": "sink_vanity",
+   "box": [
+    1.2,
+    0.55,
+    0.9
+   ],
+   "bounds_min": [
+    -0.6,
+    -0.275,
+    0.0
+   ],
+   "bounds_max": [
+    0.6,
+    0.2424,
+    0.895
+   ],
+   "tris": 836,
+   "overhang_above": null
+  },
+  "dining_table": {
+   "builder": "dining_table",
+   "box": [
+    1.2,
+    1.2,
+    0.75
+   ],
+   "bounds_min": [
+    -0.6,
+    -0.6,
+    0.0
+   ],
+   "bounds_max": [
+    0.6,
+    0.6,
+    0.75
+   ],
+   "tris": 2680,
+   "overhang_above": null
+  },
+  "dining_long": {
+   "builder": "dining_long",
+   "box": [
+    2.4,
+    1,
+    0.75
+   ],
+   "bounds_min": [
+    -1.12,
+    -0.5,
+    0.0
+   ],
+   "bounds_max": [
+    1.12,
+    0.5,
+    0.75
+   ],
+   "tris": 4108,
+   "overhang_above": null
+  },
+  "booth": {
+   "builder": "booth",
+   "box": [
+    2,
+    1.6,
+    1.1
+   ],
+   "bounds_min": [
+    -1.0,
+    -0.8,
+    0.0
+   ],
+   "bounds_max": [
+    1.0,
+    0.8,
+    1.1
+   ],
+   "tris": 2014,
+   "overhang_above": null
+  },
+  "bar_counter": {
+   "builder": "bar_counter",
+   "box": [
+    4,
+    0.8,
+    1.1
+   ],
+   "bounds_min": [
+    -2.0,
+    -0.4021,
+    0.0
+   ],
+   "bounds_max": [
+    2.0,
+    0.4,
+    1.1
+   ],
+   "tris": 6508,
+   "overhang_above": null
+  },
+  "kitchen_line": {
+   "builder": "kitchen_line",
+   "box": [
+    3,
+    0.8,
+    0.92
+   ],
+   "bounds_min": [
+    -1.5,
+    -0.4,
+    0.0
+   ],
+   "bounds_max": [
+    1.5,
+    0.3556,
+    0.9211
+   ],
+   "tris": 2990,
+   "overhang_above": null
+  },
+  "kitchen_island": {
+   "builder": "kitchen_island",
+   "box": [
+    2.4,
+    1,
+    0.92
+   ],
+   "bounds_min": [
+    -1.2,
+    -0.5,
+    0.0
+   ],
+   "bounds_max": [
+    1.2,
+    0.5,
+    0.92
+   ],
+   "tris": 1188,
+   "overhang_above": null
+  },
+  "fridge_big": {
+   "builder": "fridge_big",
+   "box": [
+    1.4,
+    0.8,
+    2.1
+   ],
+   "bounds_min": [
+    -0.7,
+    -0.4,
+    0.0
+   ],
+   "bounds_max": [
+    0.7,
+    0.3604,
+    2.1
+   ],
+   "tris": 598,
+   "overhang_above": null
+  },
+  "washer_row": {
+   "builder": "washer_row",
+   "box": [
+    2.8,
+    0.8,
+    1.1
+   ],
+   "bounds_min": [
+    -1.39,
+    -0.4,
+    0.0
+   ],
+   "bounds_max": [
+    1.39,
+    0.3456,
+    1.1
+   ],
+   "tris": 3504,
+   "overhang_above": null
+  },
+  "laundry_cart": {
+   "builder": "laundry_cart",
+   "box": [
+    1,
+    0.6,
+    1
+   ],
+   "bounds_min": [
+    -0.5,
+    -0.3,
+    0.0
+   ],
+   "bounds_max": [
+    0.5,
+    0.3,
+    0.9012
+   ],
+   "tris": 1498,
+   "overhang_above": null
+  },
+  "crate": {
+   "builder": "crate",
+   "box": [
+    1,
+    1,
+    1
+   ],
+   "bounds_min": [
+    -0.5,
+    -0.5,
+    0.0
+   ],
+   "bounds_max": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "tris": 936,
+   "overhang_above": null
+  },
+  "crate_stack": {
+   "builder": "crate_stack",
+   "box": [
+    1.2,
+    1.2,
+    1.9
+   ],
+   "bounds_min": [
+    -0.6,
+    -0.6,
+    0.0
+   ],
+   "bounds_max": [
+    0.6,
+    0.6,
+    1.883
+   ],
+   "tris": 1824,
+   "overhang_above": null
+  },
+  "pallet": {
+   "builder": "pallet",
+   "box": [
+    1.2,
+    1,
+    1.2
+   ],
+   "bounds_min": [
+    -0.6,
+    -0.5,
+    0.0
+   ],
+   "bounds_max": [
+    0.6,
+    0.5,
+    1.187
+   ],
+   "tris": 1772,
+   "overhang_above": null
+  },
+  "metal_shelf": {
+   "builder": "metal_shelf",
+   "box": [
+    2,
+    0.6,
+    2.2
+   ],
+   "bounds_min": [
+    -1.0,
+    -0.3,
+    0.0
+   ],
+   "bounds_max": [
+    1.0,
+    0.3,
+    2.2
+   ],
+   "tris": 2892,
+   "overhang_above": null
+  },
+  "car": {
+   "builder": "car",
+   "box": [
+    1.9,
+    4.4,
+    1.45
+   ],
+   "bounds_min": [
+    -0.95,
+    -2.2,
+    0.0
+   ],
+   "bounds_max": [
+    0.95,
+    2.2,
+    1.44
+   ],
+   "tris": 2936,
+   "overhang_above": null
+  },
+  "van": {
+   "builder": "van",
+   "box": [
+    2,
+    5.2,
+    2.2
+   ],
+   "bounds_min": [
+    -1.002,
+    -2.6,
+    0.0
+   ],
+   "bounds_max": [
+    1.002,
+    2.6,
+    2.2
+   ],
+   "tris": 2988,
+   "overhang_above": null
+  },
+  "pillar_round": {
+   "builder": "pillar_round",
+   "box": [
+    0.7,
+    0.7,
+    3.7
+   ],
+   "bounds_min": [
+    -0.35,
+    -0.35,
+    0.0
+   ],
+   "bounds_max": [
+    0.35,
+    0.35,
+    3.7
+   ],
+   "tris": 800,
+   "overhang_above": null
+  },
+  "barrier": {
+   "builder": "barrier",
+   "box": [
+    2,
+    0.5,
+    1
+   ],
+   "bounds_min": [
+    -1.0,
+    -0.251,
+    0.0
+   ],
+   "bounds_max": [
+    1.0,
+    0.251,
+    1.0
+   ],
+   "tris": 180,
+   "overhang_above": null
+  },
+  "dumpster": {
+   "builder": "dumpster",
+   "box": [
+    1.8,
+    1.1,
+    1.3
+   ],
+   "bounds_min": [
+    -0.88,
+    -0.55,
+    0.0
+   ],
+   "bounds_max": [
+    0.88,
+    0.545,
+    1.23
+   ],
+   "tris": 552,
+   "overhang_above": null
+  },
+  "ac_unit": {
+   "builder": "ac_unit",
+   "box": [
+    1.6,
+    1.2,
+    1.3
+   ],
+   "bounds_min": [
+    -0.8,
+    -0.6,
+    0.0
+   ],
+   "bounds_max": [
+    0.8,
+    0.6,
+    1.3
+   ],
+   "tris": 2696,
+   "overhang_above": null
+  },
+  "generator": {
+   "builder": "generator",
+   "box": [
+    2.2,
+    1.2,
+    1.6
+   ],
+   "bounds_min": [
+    -1.1,
+    -0.6,
+    0.0
+   ],
+   "bounds_max": [
+    1.1,
+    0.5806,
+    1.6
+   ],
+   "tris": 2246,
+   "overhang_above": null
+  },
+  "pipes": {
+   "builder": "pipes",
+   "box": [
+    2,
+    0.4,
+    0.4
+   ],
+   "bounds_min": [
+    -1.0,
+    -0.2,
+    0.0713
+   ],
+   "bounds_max": [
+    1.0,
+    0.1917,
+    0.4
+   ],
+   "tris": 1420,
+   "overhang_above": null
+  },
+  "display_case": {
+   "builder": "display_case",
+   "box": [
+    1.2,
+    0.8,
+    1.15
+   ],
+   "bounds_min": [
+    -0.6,
+    -0.4,
+    0.0
+   ],
+   "bounds_max": [
+    0.6,
+    0.4,
+    1.15
+   ],
+   "tris": 816,
+   "overhang_above": null
+  },
+  "display_wall": {
+   "builder": "display_wall",
+   "box": [
+    2.4,
+    0.5,
+    2
+   ],
+   "bounds_min": [
+    -1.2,
+    -0.25,
+    0.0
+   ],
+   "bounds_max": [
+    1.2,
+    0.2212,
+    2.0
+   ],
+   "tris": 3504,
+   "overhang_above": null
+  },
+  "pedestal": {
+   "builder": "pedestal",
+   "box": [
+    0.8,
+    0.8,
+    1.1
+   ],
+   "bounds_min": [
+    -0.4,
+    -0.4,
+    0.0
+   ],
+   "bounds_max": [
+    0.4,
+    0.4,
+    1.1
+   ],
+   "tris": 558,
+   "overhang_above": null
+  },
+  "statue": {
+   "builder": "statue",
+   "box": [
+    1.2,
+    1.2,
+    2.4
+   ],
+   "bounds_min": [
+    -0.6,
+    -0.6,
+    0.0
+   ],
+   "bounds_max": [
+    0.6,
+    0.6,
+    2.3623
+   ],
+   "tris": 1426,
+   "overhang_above": null
+  },
+  "painting": {
+   "builder": "painting",
+   "box": [
+    1.6,
+    0.08,
+    1.1
+   ],
+   "bounds_min": [
+    -0.8,
+    -0.028,
+    -0.0
+   ],
+   "bounds_max": [
+    0.8,
+    0.04,
+    1.1
+   ],
+   "tris": 238,
+   "overhang_above": null
+  },
+  "painting_big": {
+   "builder": "painting_big",
+   "box": [
+    3,
+    0.1,
+    2
+   ],
+   "bounds_min": [
+    -1.5,
+    -0.036,
+    0.0
+   ],
+   "bounds_max": [
+    1.5,
+    0.05,
+    2.0
+   ],
+   "tris": 250,
+   "overhang_above": null
+  },
+  "rope_barrier": {
+   "builder": "rope_barrier",
+   "box": [
+    2,
+    0.3,
+    0.95
+   ],
+   "bounds_min": [
+    -1.0,
+    -0.1462,
+    0.0
+   ],
+   "bounds_max": [
+    1.0,
+    0.1462,
+    0.95
+   ],
+   "tris": 952,
+   "overhang_above": null
+  },
+  "dino": {
+   "builder": "dino",
+   "box": [
+    3,
+    6,
+    3.6
+   ],
+   "bounds_min": [
+    -1.5,
+    -3.0,
+    0.0
+   ],
+   "bounds_max": [
+    1.5,
+    2.996,
+    3.29
+   ],
+   "tris": 6480,
+   "overhang_above": null
+  },
+  "teller_counter": {
+   "builder": "teller_counter",
+   "box": [
+    5,
+    0.9,
+    1.2
+   ],
+   "bounds_min": [
+    -2.5,
+    -0.452,
+    0.0
+   ],
+   "bounds_max": [
+    2.5,
+    0.45,
+    1.2
+   ],
+   "tris": 1636,
+   "overhang_above": null
+  },
+  "deposit_boxes": {
+   "builder": "deposit_boxes",
+   "box": [
+    2.4,
+    0.5,
+    2.3
+   ],
+   "bounds_min": [
+    -1.2,
+    -0.25,
+    0.0
+   ],
+   "bounds_max": [
+    1.2,
+    0.2367,
+    2.3
+   ],
+   "tris": 4516,
+   "overhang_above": null
+  },
+  "cash_cart": {
+   "builder": "cash_cart",
+   "box": [
+    1,
+    0.6,
+    1
+   ],
+   "bounds_min": [
+    -0.49,
+    -0.292,
+    0.0
+   ],
+   "bounds_max": [
+    0.4848,
+    0.292,
+    0.9848
+   ],
+   "tris": 2976,
+   "overhang_above": null
+  },
+  "money_counter": {
+   "builder": "money_counter",
+   "box": [
+    1.6,
+    0.8,
+    1
+   ],
+   "bounds_min": [
+    -0.8,
+    -0.4,
+    0.0
+   ],
+   "bounds_max": [
+    0.8,
+    0.4,
+    0.995
+   ],
+   "tris": 1160,
+   "overhang_above": null
+  },
+  "queue_posts": {
+   "builder": "queue_posts",
+   "box": [
+    3,
+    0.3,
+    0.95
+   ],
+   "bounds_min": [
+    -1.5,
+    -0.1462,
+    0.0
+   ],
+   "bounds_max": [
+    1.5,
+    0.1462,
+    0.95
+   ],
+   "tris": 684,
+   "overhang_above": null
+  },
+  "slot_row": {
+   "builder": "slot_row",
+   "box": [
+    3,
+    0.8,
+    1.8
+   ],
+   "bounds_min": [
+    -1.4445,
+    -0.3921,
+    0.0
+   ],
+   "bounds_max": [
+    1.5,
+    0.4,
+    1.8
+   ],
+   "tris": 4552,
+   "overhang_above": null
+  },
+  "poker_table": {
+   "builder": "poker_table",
+   "box": [
+    2.4,
+    1.4,
+    0.8
+   ],
+   "bounds_min": [
+    -1.19,
+    -0.6708,
+    0.0
+   ],
+   "bounds_max": [
+    1.19,
+    0.6708,
+    0.77
+   ],
+   "tris": 3368,
+   "overhang_above": null
+  },
+  "roulette": {
+   "builder": "roulette",
+   "box": [
+    2.6,
+    1.3,
+    0.9
+   ],
+   "bounds_min": [
+    -1.3,
+    -0.65,
+    0.0
+   ],
+   "bounds_max": [
+    1.3,
+    0.65,
+    0.9
+   ],
+   "tris": 1160,
+   "overhang_above": null
+  },
+  "cashier_cage": {
+   "builder": "cashier_cage",
+   "box": [
+    3,
+    1,
+    2.2
+   ],
+   "bounds_min": [
+    -1.5,
+    -0.5,
+    0.0
+   ],
+   "bounds_max": [
+    1.5,
+    0.4558,
+    2.2
+   ],
+   "tris": 1772,
+   "overhang_above": null
+  },
+  "stage_set": {
+   "builder": "stage_set",
+   "box": [
+    4,
+    1,
+    2.6
+   ],
+   "bounds_min": [
+    -2.0,
+    -0.438,
+    0.0
+   ],
+   "bounds_max": [
+    2.0,
+    0.5,
+    2.6
+   ],
+   "tris": 1838,
+   "overhang_above": null
+  },
+  "shop_shelf": {
+   "builder": "shop_shelf",
+   "box": [
+    2,
+    0.5,
+    1.8
+   ],
+   "bounds_min": [
+    -0.9944,
+    -0.252,
+    0.0
+   ],
+   "bounds_max": [
+    1.0,
+    0.2525,
+    1.8
+   ],
+   "tris": 4332,
+   "overhang_above": null
+  },
+  "clothes_rack": {
+   "builder": "clothes_rack",
+   "box": [
+    1.5,
+    0.5,
+    1.6
+   ],
+   "bounds_min": [
+    -0.745,
+    -0.25,
+    0.0
+   ],
+   "bounds_max": [
+    0.745,
+    0.25,
+    1.6
+   ],
+   "tris": 2556,
+   "overhang_above": null
+  },
+  "mannequin": {
+   "builder": "mannequin",
+   "box": [
+    0.6,
+    0.6,
+    1.85
+   ],
+   "bounds_min": [
+    -0.3,
+    -0.2746,
+    0.0
+   ],
+   "bounds_max": [
+    0.3,
+    0.2746,
+    1.85
+   ],
+   "tris": 1152,
+   "overhang_above": null
+  },
+  "checkout": {
+   "builder": "checkout",
+   "box": [
+    1.8,
+    0.7,
+    1
+   ],
+   "bounds_min": [
+    -0.9,
+    -0.35,
+    0.0
+   ],
+   "bounds_max": [
+    0.9,
+    0.3403,
+    1.0
+   ],
+   "tris": 498,
+   "overhang_above": null
+  },
+  "kiosk": {
+   "builder": "kiosk",
+   "box": [
+    2,
+    2,
+    2.4
+   ],
+   "bounds_min": [
+    -0.99,
+    -0.996,
+    0.0
+   ],
+   "bounds_max": [
+    0.99,
+    0.99,
+    2.4
+   ],
+   "tris": 1612,
+   "overhang_above": null
+  },
+  "food_counter": {
+   "builder": "food_counter",
+   "box": [
+    3,
+    0.9,
+    1.1
+   ],
+   "bounds_min": [
+    -1.5,
+    -0.45,
+    0.0
+   ],
+   "bounds_max": [
+    1.5,
+    0.4451,
+    1.09
+   ],
+   "tris": 992,
+   "overhang_above": null
+  },
+  "cinema_seats": {
+   "builder": "cinema_seats",
+   "box": [
+    4,
+    1,
+    1
+   ],
+   "bounds_min": [
+    -2.0,
+    -0.4,
+    0.0
+   ],
+   "bounds_max": [
+    2.0,
+    0.5,
+    0.9983
+   ],
+   "tris": 3272,
+   "overhang_above": null
+  },
+  "fountain": {
+   "builder": "fountain",
+   "box": [
+    3,
+    3,
+    1.1
+   ],
+   "bounds_min": [
+    -1.5,
+    -1.5,
+    0.0
+   ],
+   "bounds_max": [
+    1.5,
+    1.5,
+    1.1
+   ],
+   "tris": 2034,
+   "overhang_above": null
+  },
+  "lab_bench": {
+   "builder": "lab_bench",
+   "box": [
+    2.4,
+    0.9,
+    0.95
+   ],
+   "bounds_min": [
+    -1.2,
+    -0.45,
+    0.0
+   ],
+   "bounds_max": [
+    1.2,
+    0.4451,
+    0.95
+   ],
+   "tris": 2992,
+   "overhang_above": null
+  },
+  "lab_wall": {
+   "builder": "lab_wall",
+   "box": [
+    2,
+    0.7,
+    2.1
+   ],
+   "bounds_min": [
+    -1.0,
+    -0.35,
+    0.0
+   ],
+   "bounds_max": [
+    1.0,
+    0.3117,
+    2.1
+   ],
+   "tris": 1166,
+   "overhang_above": null
+  },
+  "tank": {
+   "builder": "tank",
+   "box": [
+    1,
+    1,
+    2.2
+   ],
+   "bounds_min": [
+    -0.5,
+    -0.5,
+    0.0
+   ],
+   "bounds_max": [
+    0.5,
+    0.5,
+    2.2
+   ],
+   "tris": 1234,
+   "overhang_above": null
+  },
+  "machine": {
+   "builder": "machine",
+   "box": [
+    2,
+    1.5,
+    2
+   ],
+   "bounds_min": [
+    -1.0,
+    -0.75,
+    0.0
+   ],
+   "bounds_max": [
+    0.9709,
+    0.75,
+    2.0
+   ],
+   "tris": 1248,
+   "overhang_above": null
+  },
+  "piano": {
+   "builder": "piano",
+   "box": [
+    1.6,
+    1.6,
+    1
+   ],
+   "bounds_min": [
+    -0.8,
+    -0.77,
+    0.0
+   ],
+   "bounds_max": [
+    0.8,
+    0.78,
+    1.0
+   ],
+   "tris": 1440,
+   "overhang_above": null
+  },
+  "bookcase": {
+   "builder": "bookcase",
+   "box": [
+    2,
+    0.45,
+    2.4
+   ],
+   "bounds_min": [
+    -1.0,
+    -0.225,
+    0.0
+   ],
+   "bounds_max": [
+    1.0,
+    0.1928,
+    2.4
+   ],
+   "tris": 5234,
+   "overhang_above": null
+  },
+  "fireplace": {
+   "builder": "fireplace",
+   "box": [
+    2,
+    0.6,
+    1.4
+   ],
+   "bounds_min": [
+    -1.0,
+    -0.3,
+    0.0
+   ],
+   "bounds_max": [
+    1.0,
+    0.3,
+    1.4
+   ],
+   "tris": 942,
+   "overhang_above": null
+  },
+  "sunbed": {
+   "builder": "sunbed",
+   "box": [
+    0.8,
+    2,
+    0.4
+   ],
+   "bounds_min": [
+    -0.395,
+    -1.0009,
+    0.0
+   ],
+   "bounds_max": [
+    0.395,
+    1.0009,
+    0.4
+   ],
+   "tris": 1072,
+   "overhang_above": null
+  },
+  "parasol": {
+   "builder": "parasol",
+   "box": [
+    0.5,
+    0.5,
+    2.6
+   ],
+   "bounds_min": [
+    -1.2,
+    -1.2,
+    0.0
+   ],
+   "bounds_max": [
+    1.2,
+    1.2,
+    2.6
+   ],
+   "tris": 332,
+   "overhang_above": 2.0
+  },
+  "palm": {
+   "builder": "palm",
+   "box": [
+    0.6,
+    0.6,
+    5
+   ],
+   "bounds_min": [
+    -1.8193,
+    -1.9174,
+    -0.0005
+   ],
+   "bounds_max": [
+    2.0938,
+    1.8674,
+    5.0
+   ],
+   "tris": 2896,
+   "overhang_above": 2.0
+  },
+  "hedge": {
+   "builder": "hedge",
+   "box": [
+    3,
+    0.8,
+    1.4
+   ],
+   "bounds_min": [
+    -1.4858,
+    -0.3973,
+    -0.0147
+   ],
+   "bounds_max": [
+    1.4872,
+    0.4,
+    1.378
+   ],
+   "tris": 4188,
+   "overhang_above": null
+  },
+  "boat": {
+   "builder": "boat",
+   "box": [
+    2.4,
+    7,
+    2
+   ],
+   "bounds_min": [
+    -1.2,
+    -3.36,
+    0.0
+   ],
+   "bounds_max": [
+    1.2,
+    3.5,
+    2.0
+   ],
+   "tris": 1580,
+   "overhang_above": null
+  },
+  "rug": {
+   "builder": "rug",
+   "box": [
+    3,
+    2,
+    0.02
+   ],
+   "bounds_min": [
+    -1.5,
+    -1.0,
+    0.0
+   ],
+   "bounds_max": [
+    1.5,
+    1.0,
+    0.02
+   ],
+   "tris": 1004,
+   "overhang_above": null
+  },
+  "wall_lamp": {
+   "builder": "wall_lamp",
+   "box": [
+    0.3,
+    0.15,
+    0.4
+   ],
+   "bounds_min": [
+    -0.09,
+    -0.077,
+    0.12
+   ],
+   "bounds_max": [
+    0.09,
+    0.075,
+    0.38
+   ],
+   "tris": 256,
+   "overhang_above": null
+  },
+  "sign_exit": {
+   "builder": "sign_exit",
+   "box": [
+    0.5,
+    0.08,
+    0.2
+   ],
+   "bounds_min": [
+    -0.25,
+    -0.04,
+    0.0
+   ],
+   "bounds_max": [
+    0.25,
+    0.0346,
+    0.2
+   ],
+   "tris": 298,
+   "overhang_above": null
+  },
+  "poster": {
+   "builder": "poster",
+   "box": [
+    0.7,
+    0.02,
+    1
+   ],
+   "bounds_min": [
+    -0.35,
+    -0.0105,
+    0.0
+   ],
+   "bounds_max": [
+    0.35,
+    0.01,
+    1.0
+   ],
+   "tris": 46,
+   "overhang_above": null
+  },
+  "vent_grate": {
+   "builder": "vent_grate",
+   "box": [
+    0.8,
+    0.05,
+    0.8
+   ],
+   "bounds_min": [
+    -0.4,
+    -0.025,
+    0.0
+   ],
+   "bounds_max": [
+    0.4,
+    0.0189,
+    0.8
+   ],
+   "tris": 948,
+   "overhang_above": null
+  },
+  "cctv": {
+   "builder": "cctv",
+   "box": [
+    0.3,
+    0.4,
+    0.3
+   ],
+   "bounds_min": [
+    -0.0877,
+    -0.2,
+    0.125
+   ],
+   "bounds_max": [
+    0.0877,
+    0.0611,
+    0.3
+   ],
+   "tris": 440,
+   "overhang_above": null
+  },
+  "mammoth": {
+   "builder": "mammoth",
+   "box": [
+    2.4,
+    4.5,
+    3.4
+   ],
+   "bounds_min": [
+    -1.2,
+    -2.25,
+    0.0
+   ],
+   "bounds_max": [
+    1.2,
+    1.7792,
+    3.337
+   ],
+   "tris": 5112,
+   "overhang_above": null
+  },
+  "whale_skeleton": {
+   "builder": "whale_skeleton",
+   "box": [
+    3,
+    14,
+    2.5
+   ],
+   "bounds_min": [
+    -1.5,
+    -6.6359,
+    -0.3178
+   ],
+   "bounds_max": [
+    1.5,
+    7.0,
+    2.5
+   ],
+   "tris": 3964,
+   "overhang_above": null
+  },
+  "sarcophagus": {
+   "builder": "sarcophagus",
+   "box": [
+    1,
+    2.4,
+    1.2
+   ],
+   "bounds_min": [
+    -0.5,
+    -1.2,
+    0.0
+   ],
+   "bounds_max": [
+    0.5,
+    1.2,
+    1.2
+   ],
+   "tris": 580,
+   "overhang_above": null
+  },
+  "armor_stand": {
+   "builder": "armor_stand",
+   "box": [
+    0.8,
+    0.8,
+    2
+   ],
+   "bounds_min": [
+    -0.3255,
+    -0.3,
+    0.0
+   ],
+   "bounds_max": [
+    0.4,
+    0.3,
+    2.0
+   ],
+   "tris": 1168,
+   "overhang_above": null
+  },
+  "info_panel": {
+   "builder": "info_panel",
+   "box": [
+    1.6,
+    0.3,
+    2
+   ],
+   "bounds_min": [
+    -0.8,
+    -0.15,
+    0.0
+   ],
+   "bounds_max": [
+    0.8,
+    0.15,
+    2.0
+   ],
+   "tris": 256,
+   "overhang_above": null
+  },
+  "ticket_desk": {
+   "builder": "ticket_desk",
+   "box": [
+    5,
+    1.2,
+    1.1
+   ],
+   "bounds_min": [
+    -2.5,
+    -0.6,
+    0.0
+   ],
+   "bounds_max": [
+    2.5,
+    0.5941,
+    1.1
+   ],
+   "tris": 1446,
+   "overhang_above": null
+  },
+  "art_crate": {
+   "builder": "art_crate",
+   "box": [
+    2.2,
+    0.7,
+    1.7
+   ],
+   "bounds_min": [
+    -1.1,
+    -0.35,
+    0.0
+   ],
+   "bounds_max": [
+    1.1,
+    0.35,
+    1.7
+   ],
+   "tris": 1512,
+   "overhang_above": null
+  },
+  "painting_rack": {
+   "builder": "painting_rack",
+   "box": [
+    3,
+    0.6,
+    2.4
+   ],
+   "bounds_min": [
+    -1.5,
+    -0.3,
+    0.0
+   ],
+   "bounds_max": [
+    1.504,
+    0.3,
+    2.4
+   ],
+   "tris": 1938,
+   "overhang_above": null
+  },
+  "easel": {
+   "builder": "easel",
+   "box": [
+    1,
+    0.8,
+    1.9
+   ],
+   "bounds_min": [
+    -0.4356,
+    -0.38,
+    -0.0036
+   ],
+   "bounds_max": [
+    0.4951,
+    0.3697,
+    1.8831
+   ],
+   "tris": 454,
+   "overhang_above": null
+  },
+  "slot_island": {
+   "builder": "slot_island",
+   "box": [
+    4,
+    1.8,
+    1.9
+   ],
+   "bounds_min": [
+    -2.0,
+    -0.8921,
+    0.0
+   ],
+   "bounds_max": [
+    2.0,
+    0.8921,
+    1.9
+   ],
+   "tris": 9104,
+   "overhang_above": null
+  },
+  "blackjack": {
+   "builder": "blackjack",
+   "box": [
+    2.2,
+    1.3,
+    0.85
+   ],
+   "bounds_min": [
+    -1.0636,
+    -0.5921,
+    0.0
+   ],
+   "bounds_max": [
+    1.0636,
+    0.53,
+    0.832
+   ],
+   "tris": 2464,
+   "overhang_above": null
+  },
+  "craps_table": {
+   "builder": "craps_table",
+   "box": [
+    3.6,
+    1.6,
+    0.95
+   ],
+   "bounds_min": [
+    -1.7632,
+    -0.775,
+    0.0
+   ],
+   "bounds_max": [
+    1.7632,
+    0.775,
+    0.95
+   ],
+   "tris": 1046,
+   "overhang_above": null
+  },
+  "bar_round": {
+   "builder": "bar_round",
+   "box": [
+    4,
+    4,
+    1.15
+   ],
+   "bounds_min": [
+    -1.8949,
+    -1.9821,
+    0.0
+   ],
+   "bounds_max": [
+    1.8949,
+    1.9821,
+    1.14
+   ],
+   "tris": 5582,
+   "overhang_above": null
+  },
+  "money_wheel": {
+   "builder": "money_wheel",
+   "box": [
+    2.6,
+    0.4,
+    2.8
+   ],
+   "bounds_min": [
+    -1.226,
+    -0.2,
+    0.0
+   ],
+   "bounds_max": [
+    1.2259,
+    0.2,
+    2.79
+   ],
+   "tris": 1766,
+   "overhang_above": null
+  },
+  "neon_sign": {
+   "builder": "neon_sign",
+   "box": [
+    2.4,
+    0.08,
+    0.9
+   ],
+   "bounds_min": [
+    -1.2,
+    -0.032,
+    0.0
+   ],
+   "bounds_max": [
+    1.2,
+    0.04,
+    0.9
+   ],
+   "tris": 808,
+   "overhang_above": null
+  },
+  "chip_cart": {
+   "builder": "chip_cart",
+   "box": [
+    1.2,
+    0.7,
+    1.1
+   ],
+   "bounds_min": [
+    -0.55,
+    -0.35,
+    0.0
+   ],
+   "bounds_max": [
+    0.55,
+    0.3275,
+    1.098
+   ],
+   "tris": 1640,
+   "overhang_above": null
+  },
+  "luggage_cart": {
+   "builder": "luggage_cart",
+   "box": [
+    0.8,
+    1.3,
+    1.9
+   ],
+   "bounds_min": [
+    -0.4,
+    -0.65,
+    0.0
+   ],
+   "bounds_max": [
+    0.4,
+    0.65,
+    1.892
+   ],
+   "tris": 1424,
+   "overhang_above": null
+  },
+  "housekeeping_cart": {
+   "builder": "housekeeping_cart",
+   "box": [
+    1.3,
+    0.6,
+    1.1
+   ],
+   "bounds_min": [
+    -0.65,
+    -0.29,
+    0.0
+   ],
+   "bounds_max": [
+    0.6373,
+    0.29,
+    1.09
+   ],
+   "tris": 1576,
+   "overhang_above": null
+  },
+  "linen_shelf": {
+   "builder": "linen_shelf",
+   "box": [
+    1.8,
+    0.5,
+    2
+   ],
+   "bounds_min": [
+    -0.9,
+    -0.25,
+    0.0
+   ],
+   "bounds_max": [
+    0.9,
+    0.25,
+    2.0
+   ],
+   "tris": 3872,
+   "overhang_above": null
+  },
+  "boiler": {
+   "builder": "boiler",
+   "box": [
+    2,
+    1.6,
+    2.4
+   ],
+   "bounds_min": [
+    -1.0,
+    -0.8,
+    0.0
+   ],
+   "bounds_max": [
+    1.0,
+    0.7574,
+    2.4
+   ],
+   "tris": 2412,
+   "overhang_above": null
+  },
+  "wine_rack": {
+   "builder": "wine_rack",
+   "box": [
+    2.4,
+    0.5,
+    2.1
+   ],
+   "bounds_min": [
+    -1.2,
+    -0.25,
+    0.0
+   ],
+   "bounds_max": [
+    1.2,
+    0.25,
+    2.1
+   ],
+   "tris": 5732,
+   "overhang_above": null
+  },
+  "barrel_row": {
+   "builder": "barrel_row",
+   "box": [
+    3,
+    0.9,
+    1
+   ],
+   "bounds_min": [
+    -1.48,
+    -0.45,
+    0.0
+   ],
+   "bounds_max": [
+    1.48,
+    0.3949,
+    0.964
+   ],
+   "tris": 2608,
+   "overhang_above": null
+  },
+  "chandelier": {
+   "builder": "chandelier",
+   "box": [
+    1.6,
+    1.6,
+    1.2
+   ],
+   "bounds_min": [
+    -0.7731,
+    -0.765,
+    0.12
+   ],
+   "bounds_max": [
+    0.7731,
+    0.765,
+    1.2
+   ],
+   "tris": 2780,
+   "overhang_above": null
+  },
+  "hot_tub": {
+   "builder": "hot_tub",
+   "box": [
+    2.4,
+    2.4,
+    0.8
+   ],
+   "bounds_min": [
+    -1.203,
+    -1.203,
+    0.0
+   ],
+   "bounds_max": [
+    1.203,
+    1.203,
+    0.8
+   ],
+   "tris": 1716,
+   "overhang_above": null
+  },
+  "treadmill": {
+   "builder": "treadmill",
+   "box": [
+    0.9,
+    2,
+    1.4
+   ],
+   "bounds_min": [
+    -0.42,
+    -0.95,
+    0.0
+   ],
+   "bounds_max": [
+    0.42,
+    0.95,
+    1.4022
+   ],
+   "tris": 302,
+   "overhang_above": null
+  },
+  "weight_bench": {
+   "builder": "weight_bench",
+   "box": [
+    1,
+    2,
+    1.2
+   ],
+   "bounds_min": [
+    -0.49,
+    -0.9862,
+    0.0
+   ],
+   "bounds_max": [
+    0.49,
+    0.94,
+    1.2
+   ],
+   "tris": 792,
+   "overhang_above": null
+  },
+  "vending": {
+   "builder": "vending",
+   "box": [
+    1,
+    0.8,
+    1.9
+   ],
+   "bounds_min": [
+    -0.5,
+    -0.4,
+    0.0
+   ],
+   "bounds_max": [
+    0.5,
+    0.3828,
+    1.9
+   ],
+   "tris": 1354,
+   "overhang_above": null
+  },
+  "ice_machine": {
+   "builder": "ice_machine",
+   "box": [
+    0.8,
+    0.7,
+    1.6
+   ],
+   "bounds_min": [
+    -0.4,
+    -0.35,
+    0.0
+   ],
+   "bounds_max": [
+    0.4,
+    0.2856,
+    1.6
+   ],
+   "tris": 614,
+   "overhang_above": null
+  },
+  "helipad_mark": {
+   "builder": "helipad_mark",
+   "box": [
+    10,
+    10,
+    0.02
+   ],
+   "bounds_min": [
+    -4.99,
+    -4.99,
+    0.0
+   ],
+   "bounds_max": [
+    4.99,
+    4.99,
+    0.02
+   ],
+   "tris": 820,
+   "overhang_above": null
+  },
+  "atm": {
+   "builder": "atm",
+   "box": [
+    0.9,
+    0.7,
+    1.8
+   ],
+   "bounds_min": [
+    -0.45,
+    -0.35,
+    0.0
+   ],
+   "bounds_max": [
+    0.45,
+    0.3441,
+    1.8
+   ],
+   "tris": 1098,
+   "overhang_above": null
+  },
+  "bank_desk": {
+   "builder": "bank_desk",
+   "box": [
+    1.8,
+    0.9,
+    1.1
+   ],
+   "bounds_min": [
+    -0.9,
+    -0.4147,
+    0.0
+   ],
+   "bounds_max": [
+    0.9,
+    0.45,
+    1.1
+   ],
+   "tris": 2158,
+   "overhang_above": null
+  },
+  "vault_shelf": {
+   "builder": "vault_shelf",
+   "box": [
+    2.4,
+    0.6,
+    2
+   ],
+   "bounds_min": [
+    -1.2,
+    -0.3,
+    0.0
+   ],
+   "bounds_max": [
+    1.2,
+    0.3,
+    2.0
+   ],
+   "tris": 2540,
+   "overhang_above": null
+  },
+  "gold_cart": {
+   "builder": "gold_cart",
+   "box": [
+    1.2,
+    0.8,
+    1
+   ],
+   "bounds_min": [
+    -0.6,
+    -0.4,
+    0.0
+   ],
+   "bounds_max": [
+    0.5848,
+    0.4,
+    0.9948
+   ],
+   "tris": 1296,
+   "overhang_above": null
+  },
+  "cash_pallet": {
+   "builder": "cash_pallet",
+   "box": [
+    1.2,
+    1,
+    1.1
+   ],
+   "bounds_min": [
+    -0.6,
+    -0.5,
+    0.0
+   ],
+   "bounds_max": [
+    0.6,
+    0.5,
+    1.09
+   ],
+   "tris": 2364,
+   "overhang_above": null
+  },
+  "coin_sorter": {
+   "builder": "coin_sorter",
+   "box": [
+    1.4,
+    0.8,
+    1.3
+   ],
+   "bounds_min": [
+    -0.7,
+    -0.4,
+    0.0
+   ],
+   "bounds_max": [
+    0.7,
+    0.3883,
+    1.3
+   ],
+   "tris": 1432,
+   "overhang_above": null
+  },
+  "metal_detector": {
+   "builder": "metal_detector",
+   "box": [
+    1,
+    0.6,
+    2.2
+   ],
+   "bounds_min": [
+    -0.5,
+    -0.3,
+    0.0
+   ],
+   "bounds_max": [
+    0.5,
+    0.2951,
+    2.2
+   ],
+   "tris": 414,
+   "overhang_above": null
+  },
+  "cryo_pod": {
+   "builder": "cryo_pod",
+   "box": [
+    1,
+    2.2,
+    1.2
+   ],
+   "bounds_min": [
+    -0.5,
+    -1.102,
+    -0.0126
+   ],
+   "bounds_max": [
+    0.5031,
+    1.1,
+    0.6202
+   ],
+   "tris": 770,
+   "overhang_above": null
+  },
+  "centrifuge": {
+   "builder": "centrifuge",
+   "box": [
+    1.2,
+    1.2,
+    1.3
+   ],
+   "bounds_min": [
+    -0.6,
+    -0.6,
+    0.0
+   ],
+   "bounds_max": [
+    0.6,
+    0.5684,
+    1.3
+   ],
+   "tris": 732,
+   "overhang_above": null
+  },
+  "robot_arm": {
+   "builder": "robot_arm",
+   "box": [
+    1.4,
+    1.4,
+    2.2
+   ],
+   "bounds_min": [
+    -0.7,
+    -0.7,
+    0.0
+   ],
+   "bounds_max": [
+    0.7,
+    0.7,
+    1.69
+   ],
+   "tris": 852,
+   "overhang_above": null
+  },
+  "reactor_core": {
+   "builder": "reactor_core",
+   "box": [
+    3,
+    3,
+    3.2
+   ],
+   "bounds_min": [
+    -1.5,
+    -1.5,
+    0.0
+   ],
+   "bounds_max": [
+    1.5,
+    1.5,
+    3.2
+   ],
+   "tris": 2936,
+   "overhang_above": null
+  },
+  "proto_case": {
+   "builder": "proto_case",
+   "box": [
+    1,
+    1,
+    1.7
+   ],
+   "bounds_min": [
+    -0.5,
+    -0.5,
+    0.0
+   ],
+   "bounds_max": [
+    0.5,
+    0.5,
+    1.7
+   ],
+   "tris": 998,
+   "overhang_above": null
+  },
+  "proto_rack": {
+   "builder": "proto_rack",
+   "box": [
+    2,
+    0.6,
+    2.2
+   ],
+   "bounds_min": [
+    -1.0,
+    -0.3,
+    0.0
+   ],
+   "bounds_max": [
+    1.0,
+    0.2839,
+    2.2
+   ],
+   "tris": 1400,
+   "overhang_above": null
+  },
+  "specimen_shelf": {
+   "builder": "specimen_shelf",
+   "box": [
+    2,
+    0.5,
+    2
+   ],
+   "bounds_min": [
+    -0.9758,
+    -0.25,
+    0.0
+   ],
+   "bounds_max": [
+    1.0,
+    0.25,
+    2.0
+   ],
+   "tris": 6396,
+   "overhang_above": null
+  },
+  "transformer": {
+   "builder": "transformer",
+   "box": [
+    2,
+    1.6,
+    2.2
+   ],
+   "bounds_min": [
+    -1.0,
+    -0.8,
+    0.0
+   ],
+   "bounds_max": [
+    1.0,
+    0.8,
+    2.2
+   ],
+   "tris": 2270,
+   "overhang_above": null
+  },
+  "forklift": {
+   "builder": "forklift",
+   "box": [
+    1.2,
+    2.4,
+    2.1
+   ],
+   "bounds_min": [
+    -0.594,
+    -1.2,
+    0.0
+   ],
+   "bounds_max": [
+    0.594,
+    1.2,
+    2.1
+   ],
+   "tris": 1564,
+   "overhang_above": null
+  },
+  "decon_arch": {
+   "builder": "decon_arch",
+   "box": [
+    2.4,
+    1,
+    2.6
+   ],
+   "bounds_min": [
+    -1.2,
+    -0.5,
+    0.0
+   ],
+   "bounds_max": [
+    1.2,
+    0.4941,
+    2.6
+   ],
+   "tris": 972,
+   "overhang_above": null
+  },
+  "helipad": {
+   "builder": "helipad",
+   "box": [
+    12,
+    12,
+    0.02
+   ],
+   "bounds_min": [
+    -5.99,
+    -5.99,
+    0.0
+   ],
+   "bounds_max": [
+    5.99,
+    5.99,
+    0.02
+   ],
+   "tris": 820,
+   "overhang_above": null
+  },
+  "vila_olive": {
+   "builder": "vila_olive",
+   "box": [
+    0.7,
+    0.7,
+    4.5
+   ],
+   "bounds_min": [
+    -1.7819,
+    -1.7022,
+    -0.0162
+   ],
+   "bounds_max": [
+    1.7156,
+    1.7387,
+    4.4804
+   ],
+   "tris": 1012,
+   "overhang_above": 2.0
+  },
+  "vila_stone_wall": {
+   "builder": "vila_stone_wall",
+   "box": [
+    3,
+    0.6,
+    1.2
+   ],
+   "bounds_min": [
+    -1.5008,
+    -0.303,
+    -0.0071
+   ],
+   "bounds_max": [
+    1.5004,
+    0.3005,
+    1.2035
+   ],
+   "tris": 4752,
+   "overhang_above": null
+  },
+  "vila_vines": {
+   "builder": "vila_vines",
+   "box": [
+    6,
+    0.6,
+    1.6
+   ],
+   "bounds_min": [
+    -3.0,
+    -0.2195,
+    -0.0033
+   ],
+   "bounds_max": [
+    3.0,
+    0.2191,
+    1.6
+   ],
+   "tris": 5552,
+   "overhang_above": null
+  },
+  "vila_bollard": {
+   "builder": "vila_bollard",
+   "box": [
+    0.4,
+    0.4,
+    0.6
+   ],
+   "bounds_min": [
+    -0.1862,
+    -0.1957,
+    0.0
+   ],
+   "bounds_max": [
+    0.2,
+    0.195,
+    0.6
+   ],
+   "tris": 754,
+   "overhang_above": null
+  },
+  "vila_shrine": {
+   "builder": "vila_shrine",
+   "box": [
+    2,
+    2,
+    2.6
+   ],
+   "bounds_min": [
+    -1.0,
+    -1.0,
+    0.0
+   ],
+   "bounds_max": [
+    1.0,
+    1.0,
+    2.6
+   ],
+   "tris": 814,
+   "overhang_above": null
+  },
+  "vila_garden_table": {
+   "builder": "vila_garden_table",
+   "box": [
+    1.6,
+    1,
+    0.75
+   ],
+   "bounds_min": [
+    -0.55,
+    -0.5,
+    0.0
+   ],
+   "bounds_max": [
+    0.55,
+    0.5,
+    0.745
+   ],
+   "tris": 2232,
+   "overhang_above": null
+  },
+  "vila_telescope": {
+   "builder": "vila_telescope",
+   "box": [
+    0.6,
+    0.6,
+    1.5
+   ],
+   "bounds_min": [
+    -0.3,
+    -0.2949,
+    0.0
+   ],
+   "bounds_max": [
+    0.3,
+    0.3,
+    1.5014
+   ],
+   "tris": 348,
+   "overhang_above": null
+  },
+  "vila_jetski": {
+   "builder": "vila_jetski",
+   "box": [
+    1.2,
+    3.2,
+    1.1
+   ],
+   "bounds_min": [
+    -0.6,
+    -1.553,
+    0.02
+   ],
+   "bounds_max": [
+    0.6,
+    1.5,
+    1.08
+   ],
+   "tris": 880,
+   "overhang_above": null
+  },
+  "vila_billiard": {
+   "builder": "vila_billiard",
+   "box": [
+    2.6,
+    1.5,
+    0.85
+   ],
+   "bounds_min": [
+    -1.3,
+    -0.75,
+    0.0
+   ],
+   "bounds_max": [
+    1.3,
+    0.75,
+    0.85
+   ],
+   "tris": 1832,
+   "overhang_above": null
+  },
+  "vila_barrel": {
+   "builder": "vila_barrel",
+   "box": [
+    1,
+    1,
+    1.1
+   ],
+   "bounds_min": [
+    -0.4828,
+    -0.47,
+    0.0
+   ],
+   "bounds_max": [
+    0.4827,
+    0.47,
+    1.0828
+   ],
+   "tris": 844,
+   "overhang_above": null
+  },
+  "vila_kayak": {
+   "builder": "vila_kayak",
+   "box": [
+    0.7,
+    4,
+    0.5
+   ],
+   "bounds_min": [
+    -0.35,
+    -1.975,
+    0.0198
+   ],
+   "bounds_max": [
+    0.35,
+    1.975,
+    0.49
+   ],
+   "tris": 360,
+   "overhang_above": null
+  },
+  "vila_rock": {
+   "builder": "vila_rock",
+   "box": [
+    2,
+    1.6,
+    1.4
+   ],
+   "bounds_min": [
+    -1.0,
+    -0.8,
+    0.0
+   ],
+   "bounds_max": [
+    1.0,
+    0.8,
+    1.4
+   ],
+   "tris": 320,
+   "overhang_above": null
+  },
+  "vila_fuel_pump": {
+   "builder": "vila_fuel_pump",
+   "box": [
+    0.8,
+    0.6,
+    1.6
+   ],
+   "bounds_min": [
+    -0.4,
+    -0.3,
+    0.0
+   ],
+   "bounds_max": [
+    0.4,
+    0.2835,
+    1.6
+   ],
+   "tris": 502,
+   "overhang_above": null
+  },
+  "vila_solar": {
+   "builder": "vila_solar",
+   "box": [
+    3,
+    1.8,
+    1.2
+   ],
+   "bounds_min": [
+    -1.465,
+    -0.857,
+    0.0
+   ],
+   "bounds_max": [
+    1.465,
+    0.85,
+    1.1817
+   ],
+   "tris": 294,
+   "overhang_above": null
+  },
+  "centar_gondola": {
+   "builder": "centar_gondola",
+   "box": [
+    3,
+    1,
+    1.6
+   ],
+   "bounds_min": [
+    -1.4889,
+    -0.5,
+    0.0
+   ],
+   "bounds_max": [
+    1.5,
+    0.5,
+    1.6
+   ],
+   "tris": 7084,
+   "overhang_above": null
+  },
+  "centar_trolleys": {
+   "builder": "centar_trolleys",
+   "box": [
+    2,
+    0.6,
+    1
+   ],
+   "bounds_min": [
+    -0.9915,
+    -0.193,
+    0.0024
+   ],
+   "bounds_max": [
+    0.9621,
+    0.193,
+    0.6126
+   ],
+   "tris": 2232,
+   "overhang_above": null
+  },
+  "centar_cage": {
+   "builder": "centar_cage",
+   "box": [
+    1.2,
+    1,
+    1.8
+   ],
+   "bounds_min": [
+    -0.6,
+    -0.5,
+    0.0
+   ],
+   "bounds_max": [
+    0.6,
+    0.5,
+    1.8
+   ],
+   "tris": 1484,
+   "overhang_above": null
+  },
+  "centar_directory": {
+   "builder": "centar_directory",
+   "box": [
+    1.2,
+    0.4,
+    2.2
+   ],
+   "bounds_min": [
+    -0.6,
+    -0.2,
+    0.0
+   ],
+   "bounds_max": [
+    0.6,
+    0.2,
+    2.2
+   ],
+   "tris": 404,
+   "overhang_above": null
+  },
+  "centar_atm": {
+   "builder": "centar_atm",
+   "box": [
+    0.8,
+    0.6,
+    1.9
+   ],
+   "bounds_min": [
+    -0.4,
+    -0.3,
+    0.0
+   ],
+   "bounds_max": [
+    0.4,
+    0.2941,
+    1.9
+   ],
+   "tris": 1098,
+   "overhang_above": null
+  },
+  "centar_planter": {
+   "builder": "centar_planter",
+   "box": [
+    2,
+    2,
+    0.9
+   ],
+   "bounds_min": [
+    -1.0,
+    -1.0,
+    0.0
+   ],
+   "bounds_max": [
+    1.0,
+    1.0,
+    0.8845
+   ],
+   "tris": 524,
+   "overhang_above": null
+  },
+  "centar_seat_round": {
+   "builder": "centar_seat_round",
+   "box": [
+    2.4,
+    2.4,
+    0.8
+   ],
+   "bounds_min": [
+    -1.182,
+    -1.182,
+    0.0
+   ],
+   "bounds_max": [
+    1.1816,
+    1.182,
+    0.78
+   ],
+   "tris": 1288,
+   "overhang_above": null
+  },
+  "centar_vending": {
+   "builder": "centar_vending",
+   "box": [
+    1,
+    0.8,
+    1.9
+   ],
+   "bounds_min": [
+    -0.5,
+    -0.4,
+    0.0
+   ],
+   "bounds_max": [
+    0.5,
+    0.3828,
+    1.9
+   ],
+   "tris": 1354,
+   "overhang_above": null
+  },
+  "centar_mirror": {
+   "builder": "centar_mirror",
+   "box": [
+    2,
+    0.06,
+    2
+   ],
+   "bounds_min": [
+    -1.0,
+    -0.032,
+    0.0
+   ],
+   "bounds_max": [
+    1.0,
+    0.03,
+    2.0
+   ],
+   "tris": 56,
+   "overhang_above": null
+  },
+  "centar_treadmill": {
+   "builder": "centar_treadmill",
+   "box": [
+    0.9,
+    2,
+    1.4
+   ],
+   "bounds_min": [
+    -0.42,
+    -0.95,
+    0.0
+   ],
+   "bounds_max": [
+    0.42,
+    0.95,
+    1.4022
+   ],
+   "tris": 302,
+   "overhang_above": null
+  },
+  "centar_weights": {
+   "builder": "centar_weights",
+   "box": [
+    2,
+    1.2,
+    1.3
+   ],
+   "bounds_min": [
+    -0.99,
+    -0.5862,
+    0.0
+   ],
+   "bounds_max": [
+    0.99,
+    0.54,
+    1.3
+   ],
+   "tris": 792,
+   "overhang_above": null
+  },
+  "centar_ticket_booth": {
+   "builder": "centar_ticket_booth",
+   "box": [
+    2.4,
+    1.2,
+    2.2
+   ],
+   "bounds_min": [
+    -1.2,
+    -0.6,
+    0.0
+   ],
+   "bounds_max": [
+    1.2,
+    0.5714,
+    2.2
+   ],
+   "tris": 1710,
+   "overhang_above": null
+  },
+  "centar_popcorn": {
+   "builder": "centar_popcorn",
+   "box": [
+    2,
+    0.8,
+    1.2
+   ],
+   "bounds_min": [
+    -1.0,
+    -0.4,
+    0.0
+   ],
+   "bounds_max": [
+    1.0,
+    0.3922,
+    1.2
+   ],
+   "tris": 890,
+   "overhang_above": null
+  },
+  "centar_arcade": {
+   "builder": "centar_arcade",
+   "box": [
+    0.9,
+    0.9,
+    1.9
+   ],
+   "bounds_min": [
+    -0.423,
+    -0.45,
+    0.0
+   ],
+   "bounds_max": [
+    0.423,
+    0.45,
+    1.9
+   ],
+   "tris": 352,
+   "overhang_above": null
+  },
+  "centar_screen": {
+   "builder": "centar_screen",
+   "box": [
+    8,
+    0.1,
+    2.6
+   ],
+   "bounds_min": [
+    -4.0,
+    -0.05,
+    0.0
+   ],
+   "bounds_max": [
+    4.0,
+    0.05,
+    2.6
+   ],
+   "tris": 418,
+   "overhang_above": null
+  },
+  "centar_billboard": {
+   "builder": "centar_billboard",
+   "box": [
+    6,
+    0.6,
+    3
+   ],
+   "bounds_min": [
+    -3.0,
+    -0.3,
+    0.0
+   ],
+   "bounds_max": [
+    3.0,
+    0.3,
+    3.0
+   ],
+   "tris": 714,
+   "overhang_above": null
+  }
+ }
+}
