@@ -1,0 +1,151 @@
+{
+ "file": "vehicles.glb",
+ "axes": "glTF Y up, metres; assets face +z; origin at the bottom centre unless noted",
+ "notes": "heli: child 'rotor' spins about +y (game), 'tail_rotor' about x; the helipad is part of the heli node",
+ "assets": {
+  "van": {
+   "tris": 2988,
+   "bounds_min": [
+    -1.002,
+    0.0,
+    -2.6
+   ],
+   "bounds_max": [
+    1.002,
+    2.2,
+    2.6
+   ],
+   "root_translation_gltf": [
+    0,
+    0,
+    0
+   ]
+  },
+  "truck": {
+   "tris": 3336,
+   "bounds_min": [
+    -1.32,
+    0.0,
+    -4.02
+   ],
+   "bounds_max": [
+    1.32,
+    3.4,
+    4.01
+   ],
+   "root_translation_gltf": [
+    0,
+    0,
+    0
+   ]
+  },
+  "heli": {
+   "tris": 2604,
+   "bounds_min": [
+    -4.0,
+    0.0,
+    -6.8823
+   ],
+   "bounds_max": [
+    4.0,
+    3.1,
+    4.0
+   ],
+   "root_translation_gltf": [
+    0,
+    0,
+    0
+   ],
+   "children": {
+    "rotor": {
+     "pivot_gltf": [
+      0,
+      2.97,
+      -0.0
+     ],
+     "kind": "mesh"
+    },
+    "tail_rotor": {
+     "pivot_gltf": [
+      0.12,
+      2.07,
+      -6.3
+     ],
+     "kind": "mesh"
+    }
+   }
+  },
+  "boat": {
+   "tris": 1580,
+   "bounds_min": [
+    -1.2,
+    0.0,
+    -3.5
+   ],
+   "bounds_max": [
+    1.2,
+    2.0,
+    3.36
+   ],
+   "root_translation_gltf": [
+    0,
+    0,
+    0
+   ]
+  },
+  "car_a": {
+   "tris": 2936,
+   "bounds_min": [
+    -0.95,
+    0.0,
+    -2.2
+   ],
+   "bounds_max": [
+    0.95,
+    1.44,
+    2.2
+   ],
+   "root_translation_gltf": [
+    0,
+    0,
+    0
+   ]
+  },
+  "car_b": {
+   "tris": 2892,
+   "bounds_min": [
+    -0.95,
+    0.0,
+    -2.2
+   ],
+   "bounds_max": [
+    0.95,
+    1.44,
+    2.2
+   ],
+   "root_translation_gltf": [
+    0,
+    0,
+    0
+   ]
+  },
+  "car_c": {
+   "tris": 2916,
+   "bounds_min": [
+    -0.95,
+    0.0,
+    -2.2
+   ],
+   "bounds_max": [
+    0.95,
+    1.45,
+    2.2
+   ],
+   "root_translation_gltf": [
+    0,
+    0,
+    0
+   ]
+  }
+ }
+}

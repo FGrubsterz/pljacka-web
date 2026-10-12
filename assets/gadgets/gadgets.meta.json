@@ -1,0 +1,359 @@
+{
+ "file": "gadgets.glb",
+ "axes": "glTF Y up, metres; assets face +z; origin at the bottom centre unless noted",
+ "assets": {
+  "safe_body": {
+   "tris": 572,
+   "bounds_min": [
+    -0.35,
+    0.0,
+    -0.325
+   ],
+   "bounds_max": [
+    0.35,
+    0.95,
+    0.367
+   ],
+   "root_translation_gltf": [
+    0,
+    0,
+    0
+   ],
+   "door_hinge_gltf": [
+    -0.28,
+    0.0,
+    0.325
+   ],
+   "door_opening": [
+    0.56,
+    0.74
+   ],
+   "note": "safe_door node is translated to the hinge; rotate it about +y (game)"
+  },
+  "safe_door": {
+   "tris": 768,
+   "bounds_min": [
+    0.0,
+    0.145,
+    -0.07
+   ],
+   "bounds_max": [
+    0.59,
+    0.885,
+    0.0852
+   ],
+   "root_translation_gltf": [
+    -0.28,
+    0.0,
+    0.325
+   ]
+  },
+  "drill": {
+   "tris": 924,
+   "bounds_min": [
+    -0.2971,
+    0.0023,
+    -0.4277
+   ],
+   "bounds_max": [
+    0.2971,
+    1.0359,
+    0.5
+   ],
+   "root_translation_gltf": [
+    0,
+    0,
+    0
+   ]
+  },
+  "reader": {
+   "tris": 490,
+   "bounds_min": [
+    -0.18,
+    0.0,
+    -0.06
+   ],
+   "bounds_max": [
+    0.18,
+    0.5,
+    0.103
+   ],
+   "root_translation_gltf": [
+    0,
+    0,
+    0
+   ]
+  },
+  "terminal": {
+   "tris": 906,
+   "bounds_min": [
+    -0.2,
+    0.0,
+    -0.06
+   ],
+   "bounds_max": [
+    0.2,
+    0.7,
+    0.072
+   ],
+   "root_translation_gltf": [
+    0,
+    0,
+    0
+   ]
+  },
+  "smoke_grenade": {
+   "tris": 528,
+   "bounds_min": [
+    -0.032,
+    0.0,
+    -0.0456
+   ],
+   "bounds_max": [
+    0.032,
+    0.1687,
+    0.0335
+   ],
+   "root_translation_gltf": [
+    0,
+    0,
+    0
+   ]
+  },
+  "sensor": {
+   "tris": 436,
+   "bounds_min": [
+    -0.0651,
+    -0.0032,
+    -0.0728
+   ],
+   "bounds_max": [
+    0.0651,
+    0.17,
+    0.0483
+   ],
+   "root_translation_gltf": [
+    0,
+    0,
+    0
+   ]
+  },
+  "decoy": {
+   "tris": 412,
+   "bounds_min": [
+    -0.09,
+    0.0,
+    -0.0886
+   ],
+   "bounds_max": [
+    0.09,
+    0.06,
+    0.0886
+   ],
+   "root_translation_gltf": [
+    0,
+    0,
+    0
+   ]
+  },
+  "shield": {
+   "tris": 444,
+   "bounds_min": [
+    -0.7937,
+    -0.0089,
+    -0.4523
+   ],
+   "bounds_max": [
+    0.789,
+    1.25,
+    0.1113
+   ],
+   "root_translation_gltf": [
+    0,
+    0,
+    0
+   ],
+   "width": 1.6,
+   "height": 1.25,
+   "note": "emissive cyan edge; stands on y=0, faces +z"
+  },
+  "charge": {
+   "tris": 314,
+   "bounds_min": [
+    -0.113,
+    0.0,
+    -0.03
+   ],
+   "bounds_max": [
+    0.113,
+    0.16,
+    0.0376
+   ],
+   "root_translation_gltf": [
+    0,
+    0,
+    0
+   ],
+   "children": {
+    "led": {
+     "pivot_gltf": [
+      0.06,
+      0.076,
+      0.03
+     ],
+     "kind": "mesh"
+    }
+   },
+   "note": "mounts flat on a wall (back = -z game); child 'led' should blink"
+  },
+  "hook": {
+   "tris": 536,
+   "bounds_min": [
+    -0.1158,
+    0.04,
+    -0.1158
+   ],
+   "bounds_max": [
+    0.1228,
+    0.3686,
+    0.1158
+   ],
+   "root_translation_gltf": [
+    0,
+    0,
+    0
+   ]
+  },
+  "refill_box": {
+   "tris": 440,
+   "bounds_min": [
+    -0.4104,
+    0.0,
+    -0.256
+   ],
+   "bounds_max": [
+    0.4104,
+    0.422,
+    0.262
+   ],
+   "root_translation_gltf": [
+    0,
+    0,
+    0
+   ],
+   "children": {
+    "lid": {
+     "pivot_gltf": [
+      0,
+      0.32,
+      -0.25
+     ],
+     "kind": "mesh"
+    }
+   },
+   "note": "child 'lid' pivots about x (game) at the back top edge"
+  },
+  "armor_plate": {
+   "tris": 104,
+   "bounds_min": [
+    -0.15,
+    0.0,
+    -0.1097
+   ],
+   "bounds_max": [
+    0.15,
+    0.3876,
+    0.04
+   ],
+   "root_translation_gltf": [
+    0,
+    0,
+    0
+   ]
+  },
+  "cctv": {
+   "tris": 432,
+   "bounds_min": [
+    -0.065,
+    0.075,
+    -0.2
+   ],
+   "bounds_max": [
+    0.065,
+    0.3469,
+    0.2144
+   ],
+   "root_translation_gltf": [
+    0,
+    0,
+    0
+   ],
+   "children": {
+    "head": {
+     "pivot_gltf": [
+      0.0,
+      0.186,
+      -0.08
+     ],
+     "kind": "mesh"
+    }
+   },
+   "note": "wall mount at the back; child 'head' pans about +y (game) and looks along +z"
+  },
+  "laser_emitter": {
+   "tris": 212,
+   "bounds_min": [
+    -0.06,
+    0.0,
+    -0.05
+   ],
+   "bounds_max": [
+    0.06,
+    0.12,
+    0.07
+   ],
+   "root_translation_gltf": [
+    0,
+    0,
+    0
+   ]
+  },
+  "extract_marker": {
+   "tris": 1036,
+   "bounds_min": [
+    -3.2,
+    -0.03,
+    -3.2
+   ],
+   "bounds_max": [
+    3.2,
+    2.55,
+    3.2
+   ],
+   "root_translation_gltf": [
+    0,
+    0,
+    0
+   ],
+   "children": {
+    "beacon": {
+     "pivot_gltf": [
+      0,
+      2.45,
+      0
+     ],
+     "kind": "mesh"
+    },
+    "ring": {
+     "pivot_gltf": [
+      0,
+      0.005,
+      0
+     ],
+     "kind": "mesh"
+    }
+   },
+   "note": "children: 'beacon' (glowing light, can pulse), 'ring' (ground circle r = 3.2 m)"
+  }
+ }
+}

@@ -1,0 +1,131 @@
+{
+ "file": "weapons.glb",
+ "axes": "glTF Y up, metres; assets face +z; origin at the bottom centre unless noted",
+ "notes": "origin = grip (firing hand), barrel along +z (game), empty child 'muzzle' at the barrel end",
+ "assets": {
+  "smg": {
+   "tris": 1144,
+   "bounds_min": [
+    -0.026,
+    -0.161,
+    -0.35
+   ],
+   "bounds_max": [
+    0.027,
+    0.157,
+    0.42
+   ],
+   "root_translation_gltf": [
+    0,
+    0,
+    0
+   ],
+   "children": {
+    "muzzle": {
+     "pivot_gltf": [
+      0,
+      0.085,
+      0.428
+     ],
+     "kind": "empty"
+    }
+   },
+   "grip": "origin",
+   "muzzle_child": "muzzle",
+   "length": 0.78
+  },
+  "rifle": {
+   "tris": 1576,
+   "bounds_min": [
+    -0.0314,
+    -0.178,
+    -0.46
+   ],
+   "bounds_max": [
+    0.032,
+    0.16,
+    0.68
+   ],
+   "root_translation_gltf": [
+    0,
+    0,
+    0
+   ],
+   "children": {
+    "muzzle": {
+     "pivot_gltf": [
+      0,
+      0.07,
+      0.68
+     ],
+     "kind": "empty"
+    }
+   },
+   "grip": "origin",
+   "muzzle_child": "muzzle",
+   "length": 1.14
+  },
+  "shotgun": {
+   "tris": 804,
+   "bounds_min": [
+    -0.0266,
+    -0.085,
+    -0.49
+   ],
+   "bounds_max": [
+    0.027,
+    0.1,
+    0.7
+   ],
+   "root_translation_gltf": [
+    0,
+    0,
+    0
+   ],
+   "children": {
+    "muzzle": {
+     "pivot_gltf": [
+      0,
+      0.078,
+      0.705
+     ],
+     "kind": "empty"
+    }
+   },
+   "grip": "origin",
+   "muzzle_child": "muzzle",
+   "length": 1.2
+  },
+  "pistol": {
+   "tris": 524,
+   "bounds_min": [
+    -0.016,
+    -0.095,
+    -0.0435
+   ],
+   "bounds_max": [
+    0.018,
+    0.098,
+    0.172
+   ],
+   "root_translation_gltf": [
+    0,
+    0,
+    0
+   ],
+   "children": {
+    "muzzle": {
+     "pivot_gltf": [
+      0,
+      0.074,
+      0.172
+     ],
+     "kind": "empty"
+    }
+   },
+   "grip": "origin",
+   "muzzle_child": "muzzle",
+   "length": 0.21
+  }
+ }
+}

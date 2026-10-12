@@ -1,0 +1,384 @@
+{
+ "file": "loot.glb",
+ "axes": "glTF Y up, metres; assets face +z; origin at the bottom centre unless noted",
+ "assets": {
+  "cash": {
+   "tris": 504,
+   "bounds_min": [
+    -0.2045,
+    -0.0015,
+    -0.0945
+   ],
+   "bounds_max": [
+    0.2041,
+    0.1702,
+    0.0947
+   ],
+   "root_translation_gltf": [
+    0,
+    0,
+    0
+   ]
+  },
+  "gold": {
+   "tris": 228,
+   "bounds_min": [
+    -0.14,
+    0.0,
+    -0.06
+   ],
+   "bounds_max": [
+    0.14,
+    0.075,
+    0.06
+   ],
+   "root_translation_gltf": [
+    0,
+    0,
+    0
+   ]
+  },
+  "diamond": {
+   "tris": 128,
+   "bounds_min": [
+    -0.11,
+    0.0,
+    -0.11
+   ],
+   "bounds_max": [
+    0.11,
+    0.1342,
+    0.11
+   ],
+   "root_translation_gltf": [
+    0,
+    0,
+    0
+   ]
+  },
+  "vault_diamond": {
+   "tris": 628,
+   "bounds_min": [
+    -0.2104,
+    0.0,
+    -0.212
+   ],
+   "bounds_max": [
+    0.2104,
+    0.273,
+    0.212
+   ],
+   "root_translation_gltf": [
+    0,
+    0,
+    0
+   ]
+  },
+  "vault_art": {
+   "tris": 370,
+   "bounds_min": [
+    -0.35,
+    -0.0372,
+    -0.264
+   ],
+   "bounds_max": [
+    0.35,
+    0.58,
+    0.064
+   ],
+   "root_translation_gltf": [
+    0,
+    0,
+    0
+   ]
+  },
+  "vault_jewel": {
+   "tris": 1112,
+   "bounds_min": [
+    -0.17,
+    0.0,
+    -0.1663
+   ],
+   "bounds_max": [
+    0.17,
+    0.3692,
+    0.136
+   ],
+   "root_translation_gltf": [
+    0,
+    0,
+    0
+   ]
+  },
+  "vault_proto": {
+   "tris": 1316,
+   "bounds_min": [
+    -0.16,
+    0.0,
+    -0.16
+   ],
+   "bounds_max": [
+    0.16,
+    0.4814,
+    0.163
+   ],
+   "root_translation_gltf": [
+    0,
+    0,
+    0
+   ]
+  },
+  "card_A": {
+   "tris": 148,
+   "bounds_min": [
+    -0.065,
+    0.0,
+    -0.045
+   ],
+   "bounds_max": [
+    0.065,
+    0.006,
+    0.045
+   ],
+   "root_translation_gltf": [
+    0,
+    0,
+    0
+   ]
+  },
+  "card_B": {
+   "tris": 148,
+   "bounds_min": [
+    -0.065,
+    0.0,
+    -0.045
+   ],
+   "bounds_max": [
+    0.065,
+    0.006,
+    0.045
+   ],
+   "root_translation_gltf": [
+    0,
+    0,
+    0
+   ]
+  },
+  "bag_platno_0": {
+   "tris": 252,
+   "bounds_min": [
+    -0.25,
+    -0.0027,
+    -0.1722
+   ],
+   "bounds_max": [
+    0.2523,
+    0.063,
+    0.2352
+   ],
+   "root_translation_gltf": [
+    0,
+    0,
+    0
+   ]
+  },
+  "bag_platno_1": {
+   "tris": 804,
+   "bounds_min": [
+    -0.3188,
+    0.0005,
+    -0.1352
+   ],
+   "bounds_max": [
+    0.3201,
+    0.2994,
+    0.1352
+   ],
+   "root_translation_gltf": [
+    0,
+    0,
+    0
+   ]
+  },
+  "bag_platno_2": {
+   "tris": 804,
+   "bounds_min": [
+    -0.3209,
+    0.0058,
+    -0.1728
+   ],
+   "bounds_max": [
+    0.3192,
+    0.3917,
+    0.1728
+   ],
+   "root_translation_gltf": [
+    0,
+    0,
+    0
+   ]
+  },
+  "bag_platno_3": {
+   "tris": 840,
+   "bounds_min": [
+    -0.3169,
+    0.0101,
+    -0.216
+   ],
+   "bounds_max": [
+    0.3248,
+    0.485,
+    0.2144
+   ],
+   "root_translation_gltf": [
+    0,
+    0,
+    0
+   ]
+  },
+  "bag_koza_0": {
+   "tris": 252,
+   "bounds_min": [
+    -0.25,
+    -0.0027,
+    -0.1722
+   ],
+   "bounds_max": [
+    0.2523,
+    0.063,
+    0.2352
+   ],
+   "root_translation_gltf": [
+    0,
+    0,
+    0
+   ]
+  },
+  "bag_koza_1": {
+   "tris": 816,
+   "bounds_min": [
+    -0.3208,
+    0.0005,
+    -0.1352
+   ],
+   "bounds_max": [
+    0.3209,
+    0.2994,
+    0.1352
+   ],
+   "root_translation_gltf": [
+    0,
+    0,
+    0
+   ]
+  },
+  "bag_koza_2": {
+   "tris": 816,
+   "bounds_min": [
+    -0.3188,
+    0.0058,
+    -0.1728
+   ],
+   "bounds_max": [
+    0.3209,
+    0.3917,
+    0.1728
+   ],
+   "root_translation_gltf": [
+    0,
+    0,
+    0
+   ]
+  },
+  "bag_koza_3": {
+   "tris": 852,
+   "bounds_min": [
+    -0.3188,
+    0.0092,
+    -0.2118
+   ],
+   "bounds_max": [
+    0.3182,
+    0.485,
+    0.2138
+   ],
+   "root_translation_gltf": [
+    0,
+    0,
+    0
+   ]
+  },
+  "bag_sport_0": {
+   "tris": 252,
+   "bounds_min": [
+    -0.25,
+    -0.0027,
+    -0.1722
+   ],
+   "bounds_max": [
+    0.2523,
+    0.063,
+    0.2352
+   ],
+   "root_translation_gltf": [
+    0,
+    0,
+    0
+   ]
+  },
+  "bag_sport_1": {
+   "tris": 816,
+   "bounds_min": [
+    -0.3166,
+    0.0005,
+    -0.1352
+   ],
+   "bounds_max": [
+    0.32,
+    0.2994,
+    0.1352
+   ],
+   "root_translation_gltf": [
+    0,
+    0,
+    0
+   ]
+  },
+  "bag_sport_2": {
+   "tris": 816,
+   "bounds_min": [
+    -0.3199,
+    0.0058,
+    -0.1728
+   ],
+   "bounds_max": [
+    0.3215,
+    0.3917,
+    0.1728
+   ],
+   "root_translation_gltf": [
+    0,
+    0,
+    0
+   ]
+  },
+  "bag_sport_3": {
+   "tris": 852,
+   "bounds_min": [
+    -0.3163,
+    0.0097,
+    -0.2186
+   ],
+   "bounds_max": [
+    0.32,
+    0.485,
+    0.2148
+   ],
+   "root_translation_gltf": [
+    0,
+    0,
+    0
+   ]
+  }
+ }
+}
